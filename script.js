@@ -99,8 +99,8 @@ function splice() {
 function of() {
     let i1 = eval(input1.value);
 
-    i1 = Array.of(i1);
-    output.publish(i1);
+    Ausgabe = Array.of(i1);
+    output.publish(Ausgabe);
 }
 
 function map() 
